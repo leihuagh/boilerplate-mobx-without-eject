@@ -1,4 +1,4 @@
-# MobX Without Ejecting
+# Boilerplate MobX Without Ejecting
 
 ## Resources
 
