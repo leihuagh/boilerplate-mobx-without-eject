@@ -1,7 +1,7 @@
-const { injectBabelPlugin } = require('react-app-rewired')
-const rewireMobX = require('react-app-rewire-mobx')
+import { injectBabelPlugin } from 'react-app-rewired'
+import { rewireMobX } from 'react-app-rewire-mobx'
 
-module.exports = function override(config, env) {
+export default (config, env) => {
   config = injectBabelPlugin('babel-plugin-styled-components', config)
   config = rewireMobX(config, env)
 

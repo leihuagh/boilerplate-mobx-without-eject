@@ -1,7 +1,12 @@
 import React, { Component } from 'react'
+import { inject, observer } from 'mobx-react'
 
-export default class Ui extends Component {
+@inject('UiStore')
+@observer
+class Ui extends Component {
   render() {
+    const { UiStore } = this.props
+    console.log(UiStore)
     return (
       <div>
         <h1>Ui</h1>
@@ -9,3 +14,5 @@ export default class Ui extends Component {
     )
   }
 }
+
+export default Ui
