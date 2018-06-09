@@ -1,10 +1,12 @@
 import React, { Component, Fragment } from 'react'
 
+import { UiComponent } from './components'
+
 class App extends Component {
   render() {
     return (
       <Fragment>
-        <h1>Home</h1>
+        <UiComponent />
       </Fragment>
     )
   }
