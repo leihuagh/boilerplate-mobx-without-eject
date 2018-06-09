@@ -1,8 +1,13 @@
 # MobX Without Ejecting
 
-You can view the full video explanation here: https://youtu.be/v3sJUzFXhz4
+## Resources
 
-Packages we'll be installing:
+Refers to Leigh Hlliday's great template
+
+- [Video](https://youtu.be/v3sJUzFXhz4)
+- [Source Code](https://github.com/leighhalliday/mobx-decorators-without-ejecting)
+
+## Packages we'll be installing:
 
 - react-app-rewired
 - react-app-rewire-mobx
