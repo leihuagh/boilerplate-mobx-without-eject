@@ -1,15 +1,16 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
 
 import { Provider } from 'mobx-react'
 import { UiStore } from './../stores'
+import { Ui } from './uicomponents'
 
 class UiComponent extends Component {
   render() {
     return (
       <Provider UiStore={UiStore}>
-        <div>
-          <h1>UiComponent</h1>
-        </div>
+        <Fragment>
+          <Ui />
+        </Fragment>
       </Provider>
     )
   }
